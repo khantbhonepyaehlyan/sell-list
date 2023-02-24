@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(231, 227, 227);
+}
+
+h1 {
+    color: transparent;
+    font-size: 2em;
+    font-family: serif;
+    animation: effect 1s linear infinite;
+}
+button{
+    font-family: serif;
+}
+
+td{
+    font-family: serif;
+}
+th,a,label{
+    font-family: serif;
+}
+
+@keyframes effect {
+        0% {
+            background: linear-gradient(
+                #0429fd, #0b1bf8);
+-webkit-background-clip: text;
+color: transparent;
+        }
+
+        50% {
+            background: linear-gradient(
+                #0011ff, #0f0f0f);
+-webkit-background-clip: text;
+color: transparent;
+        }
+
+   1000% {
+            background: linear-gradient(
+                #fefbff, #66ff00);
+-webkit-background-clip: text;
+color: rgba(255, 255, 255, 0.2);
+        }
+    }
+
